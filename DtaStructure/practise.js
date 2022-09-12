@@ -28,6 +28,11 @@
 
 
 
+
+/////////////////////////////////////////////
+
+
+
 // function charCount(str){
 
 //     let allChar={}
@@ -48,3 +53,85 @@
 
 
 // charCount("Hello Everyone");
+
+
+////////////////////////////////////////////////
+
+
+
+// function sameNumber(arr1,arr2){
+
+// if(arr1.length !== arr2.length){
+
+//     return false;
+
+// }
+
+// for(let i=0; i<arr1.length; i++){
+
+//     let currentVal = arr2.indexOf(arr1[i] ** 2)
+
+//    if(currentVal === -1){
+
+//     return false;
+
+//    }
+
+//    arr2.splice(currentVal,1);
+
+// }
+
+// return true;
+
+// }
+
+// console.log(sameNumber([2,4,7,6],[4,16,49,36]));
+
+
+//////////////////////////////////////////////////////
+
+
+// function sumOfNumber(n)
+// {
+//     if(n<0) return 0;
+
+//     return n + sumOfNumber(n-1);
+
+// }
+
+
+
+// console.log(sumOfNumber(10))
+
+
+//////////////////////////////////////////////////////
+
+
+// function getOddNumber(arr){
+
+//     let arrayOfOddNum = [];
+//     function helpKor(input)
+//     {
+
+//         if(input.length === 0 ) return 0;
+        
+
+//         if(input[0]%2 !== 0){
+
+//             arrayOfOddNum.push(input[0]);
+
+//         }
+
+//         helpKor(input.slice(1));
+
+//     }
+
+//     helpKor(arr);
+
+//     return arrayOfOddNum;
+
+// }
+
+
+
+// console.log(getOddNumber([1,2,4,7,4,8,0,3,6,8,9,11]))
