@@ -135,3 +135,23 @@
 
 
 // console.log(getOddNumber([1,2,4,7,4,8,0,3,6,8,9,11]))
+
+
+//////////////////////////////////////////////////////////
+
+// Linear Search
+
+function linearSearch(arr,val){
+
+    for(let i=0; i<arr.length;i++){
+
+        if(arr[i] == val) {
+            return i
+        }
+
+    }
+
+    return -1
+}
+
+console.log(linearSearch([2,28,33,12,100],100))
