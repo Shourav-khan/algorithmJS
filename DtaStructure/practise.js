@@ -139,19 +139,54 @@
 
 //////////////////////////////////////////////////////////
 
-// Linear Search
+// // Linear Search
 
-function linearSearch(arr,val){
+// function linearSearch(arr,val){
 
-    for(let i=0; i<arr.length;i++){
+//     for(let i=0; i<arr.length;i++){
 
-        if(arr[i] == val) {
-            return i
+//         if(arr[i] == val) {
+//             return i
+//         }
+
+//     }
+
+//     return -1
+// }
+
+// console.log(linearSearch([2,28,33,12,100],100))
+
+
+//////////////////////////////////////////////////////////////
+
+// Binary Linear search
+
+function binarySearch(arr, value){
+
+    let start = 0;
+    let end = arr.length - 1 ;
+
+    while(start<=end){
+
+        let middle = Math.round((start+end)/2);
+
+        if(value === arr[middle]) return middle;
+
+        if(value > middle){
+
+            start = middle + 1
+
+
+        }else if(value < middle){
+
+            end = middle - 1
+
         }
 
     }
 
     return -1
+
 }
 
-console.log(linearSearch([2,28,33,12,100],100))
+console.log(binarySearch([1,3,5,7,9,11,15,17],15))
