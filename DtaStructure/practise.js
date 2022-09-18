@@ -161,32 +161,70 @@
 
 // Binary Linear search
 
-function binarySearch(arr, value){
+// function binarySearch(arr, value){
 
-    let start = 0;
-    let end = arr.length - 1 ;
+//     let start = 0;
+//     let end = arr.length - 1 ;
 
-    while(start<=end){
+//     while(start<=end){
 
-        let middle = Math.round((start+end)/2);
+//         let middle = Math.round((start+end)/2);
 
-        if(value === arr[middle]) return middle;
+//         if(value === arr[middle]) return middle;
 
-        if(value > middle){
+//         if(value > middle){
 
-            start = middle + 1
+//             start = middle + 1
 
 
-        }else if(value < middle){
+//         }else if(value < middle){
 
-            end = middle - 1
+//             end = middle - 1
 
-        }
+//         }
 
-    }
+//     }
 
-    return -1
+//     return -1
 
-}
+// }
 
-console.log(binarySearch([1,3,5,7,9,11,15,17],15))
+// console.log(binarySearch([1,3,5,7,9,11,15,17],15))
+
+
+///////////////////////////////////////////////////////////////
+
+// Sorting Algorithm
+
+//////////////////////////////////////////////////////////////
+
+// Bubble Sort
+
+
+// function bubbleSort(arr)
+// {
+
+//     for(let i=0; i<arr.length; i++){
+//         for(let j=0; j<arr.length-1 ;j++){
+
+//            if(arr[j]>arr[j+1]){
+
+//                 let temp = arr[j]
+//                 arr[j] = arr[j+1]
+//                 arr[j+1] = temp
+
+//            }
+            
+//         }
+//     }
+
+//     return arr
+
+// }
+
+// console.log(bubbleSort([1,8,4,9,-2,4]))
+
+
+///////////////////////////////////////////////////////////
+
+
