@@ -284,27 +284,35 @@
 
 /////////////////////////////////////////
 
-class Stack{
+// class Stack{
 
-    constructor(){
-        this.arr = [];
+//     constructor(){
+//         this.arr = [];
 
-    }
-        added(value){
+//     }
+//         added(value){
 
-            this.arr.push(value);
-            return this.arr;
-    }
+//             this.arr.push(value);
+//             return this.arr;
+//     }
 
-    berKora(){
-        this.arr.pop();
-        return this.arr;
-    }
-}
+//     berKora(){
+//         this.arr.pop();
+//         return this.arr;
+//     }
+// }
 
-let stack = new Stack();
+// let stack = new Stack();
 
-console.log(stack.added(20))
-console.log(stack.added(200))
-console.log(stack.berKora())
+// console.log(stack.added(20))
+// console.log(stack.added(200))
+// console.log(stack.berKora())
+
+
+
+//////////////////////////////////////////////////////////////
+// Java Script
+//////////////////////////////////////////////////////////////
+
+
 
