@@ -120,3 +120,37 @@
 
 // });
 
+
+
+// let x = 'Hello sanin';
+
+// function stName(){
+
+//     console.log('This is from '+ x)
+
+// }
+
+// console.log(stName());
+
+//////////////////////////////////
+// object sorting by age
+///////////////////////////////////
+
+let personDetails = [
+
+    {name: 'Rakib', age:18},
+    {name: 'Hossen', age:22},
+    {name: 'khan', age:30},
+    {name: 'shourav', age:44}
+    
+
+]
+
+personDetails.sort(function(a,b){
+
+    return personDetails.b - personDetails.a ;
+
+})
+
+console.log(personDetails);
+
