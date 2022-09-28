@@ -136,21 +136,55 @@
 // object sorting by age
 ///////////////////////////////////
 
-let personDetails = [
+// let personDetails = [
 
-    {name: 'Rakib', age:18},
-    {name: 'Hossen', age:22},
-    {name: 'khan', age:30},
-    {name: 'shourav', age:44}
+//     {name: 'Rakib', age:18},
+//     {name: 'Hossen', age:22},
+//     {name: 'khan', age:30},
+//     {name: 'shourav', age:44}
     
 
-]
+// ]
 
-personDetails.sort(function(a,b){
+// personDetails.sort(function(a,b){
 
-    return personDetails.b - personDetails.a ;
 
-})
+//     if(a.name > b.name){
 
-console.log(personDetails);
+//             return 1
 
+//     }else if(a.name < b.name){
+
+//         return -1
+
+//     }else{
+//         return 0
+//     }
+
+// })
+
+// console.log(personDetails);
+
+let arr = [2,4,6,8,0,6,44556,7];
+
+
+
+// arr.forEach(function(elements,index,arr){
+
+//     console.log(elements,index,arr);
+// });
+
+function array(arr, callback){
+    for(let i=0; i<arr.length; i++){
+       callback(arr[i]);
+
+    }
+}
+
+
+array(arr, function(element){
+
+    console.log(element);
+
+
+});
