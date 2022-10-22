@@ -165,7 +165,7 @@
 
 // console.log(personDetails);
 
-let arr = [2,4,6,8,0,6,44556,7];
+// let arr = [2,4,6,8,0,6,44556,7];
 
 
 
@@ -174,17 +174,61 @@ let arr = [2,4,6,8,0,6,44556,7];
 //     console.log(elements,index,arr);
 // });
 
-function array(arr, callback){
-    for(let i=0; i<arr.length; i++){
-       callback(arr[i]);
+// function array(arr, callback){
+//     for(let i=0; i<arr.length; i++){
+//        callback(arr[i]);
 
-    }
-}
-
-
-array(arr, function(element){
-
-    console.log(element);
+//     }
+// }
 
 
-});
+// array(arr, function(element){
+
+//     console.log(element);
+
+
+// });
+
+
+
+
+
+/////////////////////////////////////////////////
+// 1+2+3+............+nth term
+/////////////////////////////////////////////////
+
+// function series(){
+
+//    let i,n,sum=0;
+
+//    console.log("Enter the number: ");
+//     let x =  prompt(n);
+//    console.log(`1+2+3+..........+${x}`);
+
+//    for(i=1; i<=x; i=i+1){
+
+//     sum = sum + i;
+
+//    }
+
+//    console.log(sum);
+
+// }
+
+// series();
+
+////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
