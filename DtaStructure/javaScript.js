@@ -219,6 +219,59 @@
 
 ////////////////////////////////////////////
 
+// function summation(){
+
+//     let sum=0,i,n;
+
+//     let x = prompt(n);
+
+//     console.log(`1+2+3+............+ ${x}`);
+
+//     for(i=33; i<=x; i=i+10){
+
+       
+
+//         sum = sum+i;
+
+
+
+//     }
+
+//     console.log(`= ${sum}`);
+
+
+// }
+
+// summation();
+
+///////////////////////////////////////////
+// 1-2+3-4+............+nth term
+///////////////////////////////////////////
+
+
+// function evenOdd(){
+
+//     let n,i,even=0,odd=0;
+
+//     console.log("Enter Number: ");
+//     let x = prompt(n);
+
+//     for(i=1; i<=x; i++){
+
+//         if(i%2==0){
+
+//             even = even + i;
+            
+//         }else{
+
+//             odd = odd + i;
+//         }
+//     }
+
+//     console.log(`numbers ${odd}-${even}`);
+// }
+
+// evenOdd();
 
 
 
